@@ -24,7 +24,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 # Display the table on the page.
 streamlit.dataframe(fruits_to_show)
 
-streamlit.header("Fruityvice Fruit Advice!")
+streamlit.header('Fruityvice Fruit Advice!')
 try:
 fruit_choice = streamlit.text_input('What fruit would you like information about?')
   if not fruit_choice:
@@ -37,7 +37,7 @@ fruit_choice = streamlit.text_input('What fruit would you like information about
       except URLError as e:
         streamlit.error()
         
-streamlit.write('The user entered ', fruit_choice)
+#streamlit.write('The user entered ', fruit_choice)
 
 #Write the data to the screen
 streamlit.text(fruityvice_response.json())# Deleted after implementation
