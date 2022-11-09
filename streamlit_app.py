@@ -46,7 +46,7 @@ except URLError as e:
 #streamlit.write('The user entered ', fruit_choice)
 
 #Write the data to the screen
-streamlit.text(fruityvice_response.json()) # Deleted after implementation
+#streamlit.text(fruityvice_response.json()) # Deleted after implementation
 
 # write your own comment -what does the next line do?- Normalization
 # write your own comment - what does this do?--Data in table format
